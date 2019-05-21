@@ -99,7 +99,7 @@
         "sign": "",
         "na": false
       },
-      "Comparator1ValueObj": {
+      "comparator1ValueObj": {
         "id": 1,
         "value": 0.228,
         "unit": "Percent",
