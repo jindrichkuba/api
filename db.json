@@ -91,7 +91,7 @@
       "title": "Cosentyx",
       "iconColor": "Green",
       "description": "Net Sales",
-      "valueObject": {
+      "valueObj": {
         "id": 1,
         "value": 3502000,
         "unit": "Number",
