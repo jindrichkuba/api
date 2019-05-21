@@ -87,100 +87,100 @@
   ],
   "brandsOverview": [
     {
-      "Id": 1,
-      "Title": "Cosentyx",
-      "IconColor": "green",
-      "Description": "Net Sales",
-      "ValueObj": {
-        "Id": 1,
-        "Value": 3502000,
-        "Unit": "Number",
-        "Digits": 0,
-        "Sign": "",
-        "NA": false
+      "id": 1,
+      "title": "Cosentyx",
+      "iconColor": "green",
+      "description": "Net Sales",
+      "valueObject": {
+        "id": 1,
+        "value": 3502000,
+        "unit": "Number",
+        "digits": 0,
+        "sign": "",
+        "na": false
       },
       "Comparator1ValueObj": {
-        "Id": 1,
-        "Value": 0.228,
-        "Unit": "Percent",
-        "Digits": 1,
-        "Sign": "%",
-        "NA": false
+        "id": 1,
+        "value": 0.228,
+        "unit": "Percent",
+        "digits": 1,
+        "sign": "%",
+        "na": false
       },
-      "Comparator1Label": "vs PY",
-      "Comparator2ValueObj": {
-        "Id": 1,
-        "Value": 0.185,
-        "Unit": "Percent",
-        "Digits": 1,
-        "Sign": "%",
-        "NA": false
+      "comparator1Label": "vs PY",
+      "comparator2ValueObj": {
+        "id": 1,
+        "value": 0.185,
+        "unit": "Percent",
+        "digits": 1,
+        "sign": "%",
+        "na": false
       },
-      "Comparator2Label": "vs SP"
+      "comparator2Label": "vs SP"
     },
     {
-      "Id": 2,
-      "Title": "Entresto",
-      "IconColor": "green",
-      "Description": "Net Sales",
-      "ValueObj": {
-        "Id": 1,
-        "Value": 1551000,
-        "Unit": "Number",
-        "Digits": 0,
-        "Sign": "",
-        "NA": false
+      "id": 2,
+      "title": "Entresto",
+      "iconColor": "green",
+      "description": "Net Sales",
+      "valueObj": {
+        "id": 1,
+        "value": 1551000,
+        "unit": "Number",
+        "digits": 0,
+        "sign": "",
+        "na": false
       },
-      "Comparator1ValueObj": {
-        "Id": 1,
-        "Value": 0.501,
-        "Unit": "Percent",
-        "Digits": 1,
-        "Sign": "%",
-        "NA": false
+      "comparator1ValueObj": {
+        "id": 1,
+        "value": 0.501,
+        "unit": "Percent",
+        "digits": 1,
+        "sign": "%",
+        "na": false
       },
-      "Comparator1Label": "vs PY",
-      "Comparator2ValueObj": {
-        "Id": 1,
-        "Value": 0.15,
-        "Unit": "Percent",
-        "Digits": 1,
-        "Sign": "%",
-        "NA": false
+      "comparator1Label": "vs PY",
+      "comparator2ValueObj": {
+        "id": 1,
+        "value": 0.15,
+        "unit": "Percent",
+        "digits": 1,
+        "sign": "%",
+        "na": false
       },
-      "Comparator2Label": "vs SP"
+      "comparator2Label": "vs SP"
     },
     {
-      "Id": 3,
-      "Title": "Launches",
-      "IconColor": "green",
-      "Description": "Net Sales",
-      "ValueObj": {
-        "Id": 1,
-        "Value": 1111000,
-        "Unit": "Number",
-        "Digits": 0,
-        "Sign": "",
-        "NA": false
+      "id": 3,
+      "title": "Launches",
+      "iconColor": "green",
+      "description": "Net Sales",
+      "valueObj": {
+        "id": 1,
+        "value": 1111000,
+        "unit": "Number",
+        "digits": 0,
+        "sign": "",
+        "na": false
       },
-      "Comparator1ValueObj": {
-        "Id": 1,
-        "Value": 0.111,
-        "Unit": "Percent",
-        "Digits": 1,
-        "Sign": "%",
-        "NA": false
+      "comparator1ValueObj": {
+        "id": 1,
+        "value": 0.111,
+        "unit": "Percent",
+        "digits": 1,
+        "sign": "%",
+        "na": false
       },
-      "Comparator1Label": "vs PY",
-      "Comparator2ValueObj": {
-        "Id": 1,
-        "Value": 0.181,
-        "Unit": "Percent",
-        "Digits": 1,
-        "Sign": "%",
-        "NA": false
+      "comparator1Label": "vs PY",
+      "comparator2ValueObj": {
+        "id": 1,
+        "value": 0.181,
+        "unit": "Percent",
+        "digits": 1,
+        "sign": "%",
+        "na": false
       },
-      "Comparator2Label": "vs SP"
+      "comparator2Label": "vs SP"
     }
   ]
 }
