@@ -1,266 +1,187 @@
 {
-  "financialOverview": [
-    {
-      "id": 1,
-      "title": "Net Sales",
-      "iconColor": "Green",
-      "valueObject": {
+    "financialOverview": [
+      {
         "id": 1,
-        "value": 0.074,
-        "unit": "Percent",
-        "digits": 1,
-        "sign": "%",
-        "na": false
+        "title": "Net Sales",
+        "iconColor": "Green",
+        "valueObject": {
+          "id": 1,
+          "value": 0.074,
+          "unit": "Percent",
+          "digits": 1,
+          "sign": "%",
+          "na": false
+        },
+        "comparatorValueObject": {
+          "id": 1,
+          "value": 0.012,
+          "unit": "Signed Percent",
+          "digits": 1,
+          "sign": "% vs SP 18",
+          "na": false
+        }
       },
-      "comparatorValueObject": {
-        "id": 1,
-        "value": 0.012,
-        "unit": "Signed Percent",
-        "digits": 1,
-        "sign": "% vs SP 18",
-        "na": false
+      {
+        "id": 2,
+        "title": "TFC",
+        "iconColor": "Red",
+        "valueObject": {
+          "id": 1,
+          "value": 0.024,
+          "unit": "Percent",
+          "digits": 1,
+          "sign": "%",
+          "na": false
+        },
+        "comparatorValueObject": {
+          "id": 1,
+          "value": -0.03,
+          "unit": "Percent",
+          "digits": 1,
+          "sign": "% vs SP 18",
+          "na": false
+        }
+      },
+      {
+        "id": 3,
+        "title": "Margin",
+        "iconColor": "Green",
+        "valueObject": {
+          "id": 1,
+          "value": 700,
+          "unit": "Number",
+          "digits": 1,
+          "sign": " ppt",
+          "na": false
+        },
+        "comparatorValueObject": {
+          "id": 1,
+          "value": 0.07,
+          "unit": "Signed Percent",
+          "digits": 1,
+          "sign": " ppt vs SP 18",
+          "na": false
+        }
+      },
+      {
+        "id": 4,
+        "title": "Cash",
+        "iconColor": "Green",
+        "valueObject": {
+          "id": 1,
+          "value": 0.08,
+          "unit": "Percent",
+          "digits": 1,
+          "sign": "%",
+          "na": false
+        },
+        "comparatorValueObject": {
+          "id": 1,
+          "value": 0.011,
+          "unit": "Signed Percent",
+          "digits": 1,
+          "sign": "% vs SP 18",
+          "na": false
+        }
       }
-    },
-    {
-      "id": 2,
-      "title": "TFC",
-      "iconColor": "Red",
-      "valueObject": {
+    ],
+    "brandsOverview": [
+      {
         "id": 1,
-        "value": 0.024,
-        "unit": "Percent",
-        "digits": 1,
-        "sign": "%",
-        "na": false
+        "title": "Cosentyx",
+        "iconColor": "Green",
+        "description": "Net Sales",
+        "valueObject": {
+          "id": 1,
+          "value": 3502000,
+          "unit": "Number",
+          "digits": 0,
+          "sign": "",
+          "na": false
+        },
+        "comparator1ValueObject": {
+          "id": 1,
+          "value": 0.228,
+          "unit": "Percent",
+          "digits": 1,
+          "sign": "%",
+          "na": false
+        },
+        "comparator1Label": "vs PY",
+        "comparator2ValueObject": {
+          "id": 1,
+          "value": 0.185,
+          "unit": "Percent",
+          "digits": 1,
+          "sign": "%",
+          "na": false
+        },
+        "comparator2Label": "vs SP"
       },
-      "comparatorValueObject": {
-        "id": 1,
-        "value": -0.03,
-        "unit": "Percent",
-        "digits": 1,
-        "sign": "% vs SP 18",
-        "na": false
+      {
+        "id": 2,
+        "title": "Entresto",
+        "iconColor": "Green",
+        "description": "Net Sales",
+        "valueObject": {
+          "id": 1,
+          "value": 1551000,
+          "unit": "Number",
+          "digits": 0,
+          "sign": "",
+          "na": false
+        },
+        "comparator1ValueObject": {
+          "id": 1,
+          "value": 0.501,
+          "unit": "Percent",
+          "digits": 1,
+          "sign": "%",
+          "na": false
+        },
+        "comparator1Label": "vs PY",
+        "comparator2ValueObject": {
+          "id": 1,
+          "value": 0.15,
+          "unit": "Percent",
+          "digits": 1,
+          "sign": "%",
+          "na": false
+        },
+        "comparator2Label": "vs SP"
+      },
+      {
+        "id": 3,
+        "title": "Launches",
+        "iconColor": "Green",
+        "description": "Net Sales",
+        "valueObject": {
+          "id": 1,
+          "value": 1111000,
+          "unit": "Number",
+          "digits": 0,
+          "sign": "",
+          "na": false
+        },
+        "comparator1ValueObject": {
+          "id": 1,
+          "value": 0.111,
+          "unit": "Percent",
+          "digits": 1,
+          "sign": "%",
+          "na": false
+        },
+        "comparator1Label": "vs PY",
+        "comparator2ValueObject": {
+          "id": 1,
+          "value": 0.181,
+          "unit": "Percent",
+          "digits": 1,
+          "sign": "%",
+          "na": false
+        },
+        "comparator2Label": "vs SP"
       }
-    },
-    {
-      "id": 3,
-      "title": "Margin",
-      "iconColor": "Green",
-      "valueObject": {
-        "id": 1,
-        "value": 700,
-        "unit": "Number",
-        "digits": 1,
-        "sign": " ppt",
-        "na": false
-      },
-      "comparatorValueObject": {
-        "id": 1,
-        "value": 0.07,
-        "unit": "Signed Percent",
-        "digits": 1,
-        "sign": " ppt vs SP 18",
-        "na": false
-      }
-    },
-    {
-      "id": 4,
-      "title": "Cash",
-      "iconColor": "Green",
-      "valueObject": {
-        "id": 1,
-        "value": 0.08,
-        "unit": "Percent",
-        "digits": 1,
-        "sign": "%",
-        "na": false
-      },
-      "comparatorValueObject": {
-        "id": 1,
-        "value": 0.011,
-        "unit": "Signed Percent",
-        "digits": 1,
-        "sign": "% vs SP 18",
-        "na": false
-      }
-    }
-  ],
-  "brandsOverview": [
-    {
-      "id": 1,
-      "title": "Cosentyx",
-      "iconColor": "Green",
-      "description": "Net Sales",
-      "valueObject": {
-        "id": 1,
-        "value": 3502000,
-        "unit": "Number",
-        "digits": 0,
-        "sign": "",
-        "na": false
-      },
-      "comparator1ValueObject": {
-        "id": 1,
-        "value": 0.228,
-        "unit": "Percent",
-        "digits": 1,
-        "sign": "%",
-        "na": false
-      },
-      "comparator1Label": "vs PY",
-      "comparator2ValueObject": {
-        "id": 1,
-        "value": 0.185,
-        "unit": "Percent",
-        "digits": 1,
-        "sign": "%",
-        "na": false
-      },
-      "comparator2Label": "vs SP"
-    },
-    {
-      "id": 2,
-      "title": "Entresto",
-      "iconColor": "Green",
-      "description": "Net Sales",
-      "valueObject": {
-        "id": 1,
-        "value": 1551000,
-        "unit": "Number",
-        "digits": 0,
-        "sign": "",
-        "na": false
-      },
-      "comparator1ValueObject": {
-        "id": 1,
-        "value": 0.501,
-        "unit": "Percent",
-        "digits": 1,
-        "sign": "%",
-        "na": false
-      },
-      "comparator1Label": "vs PY",
-      "comparator2ValueObject": {
-        "id": 1,
-        "value": 0.15,
-        "unit": "Percent",
-        "digits": 1,
-        "sign": "%",
-        "na": false
-      },
-      "comparator2Label": "vs SP"
-    },
-    {
-      "id": 3,
-      "title": "Launches",
-      "iconColor": "Green",
-      "description": "Net Sales",
-      "valueObject": {
-        "id": 1,
-        "value": 1111000,
-        "unit": "Number",
-        "digits": 0,
-        "sign": "",
-        "na": false
-      },
-      "comparator1ValueObject": {
-        "id": 1,
-        "value": 0.111,
-        "unit": "Percent",
-        "digits": 1,
-        "sign": "%",
-        "na": false
-      },
-      "comparator1Label": "vs PY",
-      "comparator2ValueObject": {
-        "id": 1,
-        "value": 0.181,
-        "unit": "Percent",
-        "digits": 1,
-        "sign": "%",
-        "na": false
-      },
-      "comparator2Label": "vs SP"
-    }
-  ],
-  	"overview": {
-		"id": 31974886,
-		"title": "Ut et occaecat",
-		"geographyFilter": [
-			{
-				"id": 96356804,
-				"title": "labore dolore qui ex et"
-			},
-			{
-				"id": 54372868,
-				"title": "exercitation magna consectetur",
-				"children": [
-					{
-						"id": 51209850,
-						"title": "veniam mollit nostrud",
-					}
-				]
-			}
-		],
-		"currencyFilter": [
-			{
-				"id": 51209852,
-				"title": "veniam mollit nostrud",
-				"children": [
-					{
-						"id": 51209853,
-						"title": "veniam mollit nostrud",
-						"children": [
-							{
-								"id": 51209854,
-								"title": "veniam mollit nostrud",
-							}
-						]
-					}
-				]
-			}
-		],
-		"versionFilter": [
-			{
-				"id": 61242817,
-				"title": "proident adipisicing"
-			},
-			{
-				"id": 95041099,
-				"title": "adipi"
-			}
-		]
-	},
-	"resrouceAllocation": {
-		"id": 50360424,
-		"title": "esse",
-		"currencyFilter": [
-			{
-				"id": 62493724,
-				"title": "adipisicing magna nostrud aliquip"
-			},
-			{
-				"id": 76999862,
-				"title": "Ex"
-			},
-			{
-				"id": 94060237,
-				"title": "Excepteur non occaecat"
-			}
-		],
-		"versionFilter": [
-			{
-				"id": 96768072,
-				"title": "laboris"
-			},
-			{
-				"id": 25312009,
-				"title": "cillum"
-			},
-			{
-				"id": 51498311,
-				"title": "adipisicing tempor"
-			}
-		]
-	}
-}
+    ]
+  }
+  
