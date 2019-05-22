@@ -230,37 +230,5 @@
              "title":"adipi"
           }
        ]
-    },
-    "resrouceAllocation": {
-		"id": 50360424,
-		"title": "esse",
-		"currencyFilter": [
-			{
-				"id": 62493724,
-				"title": "adipisicing magna nostrud aliquip"
-			},
-			{
-				"id": 76999862,
-				"title": "Ex"
-			},
-			{
-				"id": 94060237,
-				"title": "Excepteur non occaecat"
-			}
-		],
-		"versionFilter": [
-			{
-				"id": 96768072,
-				"title": "laboris"
-			},
-			{
-				"id": 25312009,
-				"title": "cillum"
-			},
-			{
-				"id": 51498311,
-				"title": "adipisicing tempor"
-			}
-		]
-	}
+    }
  }
