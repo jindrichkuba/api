@@ -182,53 +182,5 @@
         },
         "comparator2Label": "vs SP"
       }
-    ],
-	"overview": {
-		"id": 31974886,
-		"title": "Ut et occaecat",
-		"geographyFilter": [
-			{
-				"id": 96356804,
-				"title": "labore dolore qui ex et"
-			},
-			{
-				"id": 54372868,
-				"title": "exercitation magna consectetur",
-				"children": [
-					{
-						"id": 51209850,
-						"title": "veniam mollit nostrud",
-					}
-				]
-			}
-		],
-		"currencyFilter": [
-			{
-				"id": 51209852,
-				"title": "veniam mollit nostrud",
-				"children": [
-					{
-						"id": 51209853,
-						"title": "veniam mollit nostrud",
-						"children": [
-							{
-								"id": 51209854,
-								"title": "veniam mollit nostrud",
-							}
-						]
-					}
-				]
-			}
-		],
-		"versionFilter": [
-			{
-				"id": 61242817,
-				"title": "proident adipisicing"
-			},
-			{
-				"id": 95041099,
-				"title": "adipi"
-			}
-		]
-	}
+    ]
 }
