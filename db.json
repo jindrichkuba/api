@@ -231,7 +231,7 @@
           }
        ]
     },
-    "resrouceAllocation": {
+    "resourceAllocation": {
 		"id": 2,
 		"title": "Resource Allocation",
 		"currencyFilter": [
