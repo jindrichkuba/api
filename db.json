@@ -263,4 +263,45 @@
 			}
 		]
 	}
+  "PieChart": {
+  "Title": "M&S vs TGT20",
+  "PieChart": [
+    {
+      "Id": 1,
+      "Label": "Cosentyx",
+      "ValueObject": {
+        "Id": 1,
+        "Value": 11758002.065857261,
+        "Unit": "Number",
+        "Digits": 0,
+        "Sign": "",
+        "NA": false
+      }
+    },
+    {
+      "Id": 2,
+      "Label": "Entresto",
+      "ValueObject": {
+        "Id": 1,
+        "Value": 57501252.27325216,
+        "Unit": "Number",
+        "Digits": 0,
+        "Sign": "",
+        "NA": false
+      }
+    },
+    {
+      "Id": 3,
+      "Label": "Rest of Portfolio",
+      "ValueObject": {
+        "Id": 1,
+        "Value": -80977487.34262788,
+        "Unit": "Number",
+        "Digits": 0,
+        "Sign": "",
+        "NA": true
+      }
+    }
+  ]
+}
  }
