@@ -271,7 +271,7 @@
       "Label": "Cosentyx",
       "ValueObject": {
         "Id": 1,
-        "Value": 11758002.065857261,
+        "Value": 1154,
         "Unit": "Number",
         "Digits": 0,
         "Sign": "",
@@ -283,7 +283,7 @@
       "Label": "Entresto",
       "ValueObject": {
         "Id": 1,
-        "Value": 57501252.27325216,
+        "Value": 1469,
         "Unit": "Number",
         "Digits": 0,
         "Sign": "",
@@ -295,7 +295,19 @@
       "Label": "Rest of Portfolio",
       "ValueObject": {
         "Id": 1,
-        "Value": -80977487.34262788,
+        "Value": 3957,
+        "Unit": "Number",
+        "Digits": 0,
+        "Sign": "",
+        "NA": true
+      }
+    },
+    {
+      "Id": 4,
+      "Label": "Launches",
+      "ValueObject": {
+        "Id": 1,
+        "Value": 936,
         "Unit": "Number",
         "Digits": 0,
         "Sign": "",
