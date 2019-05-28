@@ -282,7 +282,7 @@
       "Id": 2,
       "Label": "Entresto",
       "ValueObject": {
-        "Id": 1,
+        "Id": 2,
         "Value": 1469,
         "Unit": "Number",
         "Digits": 0,
@@ -294,7 +294,7 @@
       "Id": 3,
       "Label": "Rest of Portfolio",
       "ValueObject": {
-        "Id": 1,
+        "Id": 3,
         "Value": 3957,
         "Unit": "Number",
         "Digits": 0,
@@ -306,7 +306,7 @@
       "Id": 4,
       "Label": "Launches",
       "ValueObject": {
-        "Id": 1,
+        "Id": 4,
         "Value": 936,
         "Unit": "Number",
         "Digits": 0,
