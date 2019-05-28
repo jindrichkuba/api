@@ -299,7 +299,7 @@
         "Unit": "Number",
         "Digits": 0,
         "Sign": "",
-        "NA": true
+        "NA": false
       }
     },
     {
@@ -311,7 +311,7 @@
         "Unit": "Number",
         "Digits": 0,
         "Sign": "",
-        "NA": true
+        "NA": false
       }
     }
   ]
