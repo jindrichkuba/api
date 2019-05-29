@@ -1,319 +1,393 @@
 {  
-  "financialOverview":[  
-     {  
-        "id":1,
-        "title":"Net Sales",
-        "iconColor":"Green",
-        "valueObject":{  
-           "id":1,
-           "value":0.074,
-           "unit":"Percent",
-           "digits":1,
-           "sign":"%",
-           "na":false
-        },
-        "comparatorValueObject":{  
-           "id":1,
-           "value":0.012,
-           "unit":"Signed Percent",
-           "digits":1,
-           "sign":"% vs SP 18",
-           "na":false
-        }
-     },
-     {  
-        "id":2,
-        "title":"TFC",
-        "iconColor":"Red",
-        "valueObject":{  
-           "id":1,
-           "value":0.024,
-           "unit":"Percent",
-           "digits":1,
-           "sign":"%",
-           "na":false
-        },
-        "comparatorValueObject":{  
-           "id":1,
-           "value":-0.03,
-           "unit":"Percent",
-           "digits":1,
-           "sign":"% vs SP 18",
-           "na":false
-        }
-     },
-     {  
-        "id":3,
-        "title":"Margin",
-        "iconColor":"Green",
-        "valueObject":{  
-           "id":1,
-           "value":700,
-           "unit":"Number",
-           "digits":1,
-           "sign":" ppt",
-           "na":false
-        },
-        "comparatorValueObject":{  
-           "id":1,
-           "value":0.07,
-           "unit":"Signed Percent",
-           "digits":1,
-           "sign":" ppt vs SP 18",
-           "na":false
-        }
-     },
-     {  
-        "id":4,
-        "title":"Cash",
-        "iconColor":"Green",
-        "valueObject":{  
-           "id":1,
-           "value":0.08,
-           "unit":"Percent",
-           "digits":1,
-           "sign":"%",
-           "na":false
-        },
-        "comparatorValueObject":{  
-           "id":1,
-           "value":0.011,
-           "unit":"Signed Percent",
-           "digits":1,
-           "sign":"% vs SP 18",
-           "na":false
-        }
-     }
-  ],
-  "brandsOverview":[  
-     {  
-        "id":1,
-        "title":"Cosentyx",
-        "iconColor":"Green",
-        "description":"Net Sales",
-        "valueObject":{  
-           "id":1,
-           "value":3502000,
-           "unit":"Number",
-           "digits":0,
-           "sign":"",
-           "na":false
-        },
-        "comparator1ValueObject":{  
-           "id":1,
-           "value":0.228,
-           "unit":"Percent",
-           "digits":1,
-           "sign":"%",
-           "na":false
-        },
-        "comparator1Label":"vs PY",
-        "comparator2ValueObject":{  
-           "id":1,
-           "value":0.185,
-           "unit":"Percent",
-           "digits":1,
-           "sign":"%",
-           "na":false
-        },
-        "comparator2Label":"vs SP"
-     },
-     {  
-        "id":2,
-        "title":"Entresto",
-        "iconColor":"Green",
-        "description":"Net Sales",
-        "valueObject":{  
-           "id":1,
-           "value":1551000,
-           "unit":"Number",
-           "digits":0,
-           "sign":"",
-           "na":false
-        },
-        "comparator1ValueObject":{  
-           "id":1,
-           "value":0.501,
-           "unit":"Percent",
-           "digits":1,
-           "sign":"%",
-           "na":false
-        },
-        "comparator1Label":"vs PY",
-        "comparator2ValueObject":{  
-           "id":1,
-           "value":0.15,
-           "unit":"Percent",
-           "digits":1,
-           "sign":"%",
-           "na":false
-        },
-        "comparator2Label":"vs SP"
-     },
-     {  
-        "id":3,
-        "title":"Launches",
-        "iconColor":"Green",
-        "description":"Net Sales",
-        "valueObject":{  
-           "id":1,
-           "value":1111000,
-           "unit":"Number",
-           "digits":0,
-           "sign":"",
-           "na":false
-        },
-        "comparator1ValueObject":{  
-           "id":1,
-           "value":0.111,
-           "unit":"Percent",
-           "digits":1,
-           "sign":"%",
-           "na":false
-        },
-        "comparator1Label":"vs PY",
-        "comparator2ValueObject":{  
-           "id":1,
-           "value":0.181,
-           "unit":"Percent",
-           "digits":1,
-           "sign":"%",
-           "na":false
-        },
-        "comparator2Label":"vs SP"
-     }
-  ],
-  "overview":{  
-     "id": 1,
-     "title": "Cockpit",
-     "geographyFilter":[  
-        {  
-           "id": 1,
-           "title": "Geography item 1"
-        },
-        {  
-           "id": 2,
-           "title": "Geography item 2",
-           "children":[  
-              {  
-                 "id": 1,
-                 "title": "Geography children 1"
-              }
-           ]
-        }
-     ],
-     "currencyFilter":[  
-        {  
-           "id": 1,
-           "title": "Target Rates item 1",
-           "children":[  
-              {  
-                 "id": 1,
-                 "title": "Target Rates Children 1",
-                 "children":[  
-                    {  
-                       "id": 1,
-                       "title":"Target Rates Children Children 1"
-                    }
-                 ]
-              }
-           ]
-        }
-     ],
-     "versionFilter":[  
-        {  
-           "id": 1,
-           "title":"Version item 1"
-        },
-        {  
-           "id": 2,
-           "title":"Version item 2"
-        }
-     ]
+    "financialOverview":[  
+       {  
+          "id":1,
+          "title":"Net Sales",
+          "iconColor":"Green",
+          "valueObject":{  
+             "id":1,
+             "value":0.074,
+             "unit":"Percent",
+             "digits":1,
+             "sign":"%",
+             "na":false
+          },
+          "comparatorValueObject":{  
+             "id":1,
+             "value":0.012,
+             "unit":"Signed Percent",
+             "digits":1,
+             "sign":"% vs SP 18",
+             "na":false
+          }
+       },
+       {  
+          "id":2,
+          "title":"TFC",
+          "iconColor":"Red",
+          "valueObject":{  
+             "id":1,
+             "value":0.024,
+             "unit":"Percent",
+             "digits":1,
+             "sign":"%",
+             "na":false
+          },
+          "comparatorValueObject":{  
+             "id":1,
+             "value":-0.03,
+             "unit":"Percent",
+             "digits":1,
+             "sign":"% vs SP 18",
+             "na":false
+          }
+       },
+       {  
+          "id":3,
+          "title":"Margin",
+          "iconColor":"Green",
+          "valueObject":{  
+             "id":1,
+             "value":700,
+             "unit":"Number",
+             "digits":1,
+             "sign":" ppt",
+             "na":false
+          },
+          "comparatorValueObject":{  
+             "id":1,
+             "value":0.07,
+             "unit":"Signed Percent",
+             "digits":1,
+             "sign":" ppt vs SP 18",
+             "na":false
+          }
+       },
+       {  
+          "id":4,
+          "title":"Cash",
+          "iconColor":"Green",
+          "valueObject":{  
+             "id":1,
+             "value":0.08,
+             "unit":"Percent",
+             "digits":1,
+             "sign":"%",
+             "na":false
+          },
+          "comparatorValueObject":{  
+             "id":1,
+             "value":0.011,
+             "unit":"Signed Percent",
+             "digits":1,
+             "sign":"% vs SP 18",
+             "na":false
+          }
+       }
+    ],
+    "brandsOverview":[  
+       {  
+          "id":1,
+          "title":"Cosentyx",
+          "iconColor":"Green",
+          "description":"Net Sales",
+          "valueObject":{  
+             "id":1,
+             "value":3502000,
+             "unit":"Number",
+             "digits":0,
+             "sign":"",
+             "na":false
+          },
+          "comparator1ValueObject":{  
+             "id":1,
+             "value":0.228,
+             "unit":"Percent",
+             "digits":1,
+             "sign":"%",
+             "na":false
+          },
+          "comparator1Label":"vs PY",
+          "comparator2ValueObject":{  
+             "id":1,
+             "value":0.185,
+             "unit":"Percent",
+             "digits":1,
+             "sign":"%",
+             "na":false
+          },
+          "comparator2Label":"vs SP"
+       },
+       {  
+          "id":2,
+          "title":"Entresto",
+          "iconColor":"Green",
+          "description":"Net Sales",
+          "valueObject":{  
+             "id":1,
+             "value":1551000,
+             "unit":"Number",
+             "digits":0,
+             "sign":"",
+             "na":false
+          },
+          "comparator1ValueObject":{  
+             "id":1,
+             "value":0.501,
+             "unit":"Percent",
+             "digits":1,
+             "sign":"%",
+             "na":false
+          },
+          "comparator1Label":"vs PY",
+          "comparator2ValueObject":{  
+             "id":1,
+             "value":0.15,
+             "unit":"Percent",
+             "digits":1,
+             "sign":"%",
+             "na":false
+          },
+          "comparator2Label":"vs SP"
+       },
+       {  
+          "id":3,
+          "title":"Launches",
+          "iconColor":"Green",
+          "description":"Net Sales",
+          "valueObject":{  
+             "id":1,
+             "value":1111000,
+             "unit":"Number",
+             "digits":0,
+             "sign":"",
+             "na":false
+          },
+          "comparator1ValueObject":{  
+             "id":1,
+             "value":0.111,
+             "unit":"Percent",
+             "digits":1,
+             "sign":"%",
+             "na":false
+          },
+          "comparator1Label":"vs PY",
+          "comparator2ValueObject":{  
+             "id":1,
+             "value":0.181,
+             "unit":"Percent",
+             "digits":1,
+             "sign":"%",
+             "na":false
+          },
+          "comparator2Label":"vs SP"
+       }
+    ],
+    "overview":{  
+       "id": 1,
+       "title": "Cockpit",
+       "geographyFilter":[  
+          {  
+             "id": 1,
+             "title": "Geography item 1"
+          },
+          {  
+             "id": 2,
+             "title": "Geography item 2",
+             "children":[  
+                {  
+                   "id": 1,
+                   "title": "Geography children 1"
+                }
+             ]
+          }
+       ],
+       "currencyFilter":[  
+          {  
+             "id": 1,
+             "title": "Target Rates item 1",
+             "children":[  
+                {  
+                   "id": 1,
+                   "title": "Target Rates Children 1",
+                   "children":[  
+                      {  
+                         "id": 1,
+                         "title":"Target Rates Children Children 1"
+                      }
+                   ]
+                }
+             ]
+          }
+       ],
+       "versionFilter":[  
+          {  
+             "id": 1,
+             "title":"Version item 1"
+          },
+          {  
+             "id": 2,
+             "title":"Version item 2"
+          }
+       ]
+    },
+    "resourceAllocation": {
+    "id": 2,
+    "title": "Resource Allocation",
+    "currencyFilter": [
+      {
+        "id": 1,
+        "title": "Target Rates item 1"
+      },
+      {
+        "id": 2,
+        "title": "Target Rates item 2"
+      },
+      {
+        "id": 3,
+        "title": "Target Rates item 3"
+      }
+    ],
+    "versionFilter": [
+      {
+        "id": 1,
+        "title": "Version item 1"
+      },
+      {
+        "id": 2,
+        "title": "Version item 2"
+      },
+      {
+        "id": 3,
+        "title": "Version item 3"
+      }
+    ]
   },
-  "resourceAllocation": {
-  "id": 2,
-  "title": "Resource Allocation",
-  "currencyFilter": [
-    {
-      "id": 1,
-      "title": "Target Rates item 1"
-    },
-    {
-      "id": 2,
-      "title": "Target Rates item 2"
-    },
-    {
-      "id": 3,
-      "title": "Target Rates item 3"
-    }
-  ],
-  "versionFilter": [
-    {
-      "id": 1,
-      "title": "Version item 1"
-    },
-    {
-      "id": 2,
-      "title": "Version item 2"
-    },
-    {
-      "id": 3,
-      "title": "Version item 3"
-    }
-  ]
-},
-"PieChart": {
-  "Title": "M&S vs TGT20",
-  "PieChart": [
-    {
-      "Id": 1,
-      "Label": "Cosentyx",
-      "ValueObject": {
+  "PieChart": {
+    "Title": "M&S vs TGT20",
+    "PieChart": [
+      {
         "Id": 1,
-        "Value": 1154,
-        "Unit": "Number",
-        "Digits": 0,
-        "Sign": "",
-        "NA": false
-      }
-    },
-    {
-      "Id": 2,
-      "Label": "Entresto",
-      "ValueObject": {
+        "Label": "Cosentyx",
+        "ValueObject": {
+          "Id": 1,
+          "Value": 1154,
+          "Unit": "Number",
+          "Digits": 0,
+          "Sign": "",
+          "NA": false
+        }
+      },
+      {
         "Id": 2,
-        "Value": 1469,
-        "Unit": "Number",
-        "Digits": 0,
-        "Sign": "",
-        "NA": false
-      }
-    },
-    {
-      "Id": 3,
-      "Label": "Rest of Portfolio",
-      "ValueObject": {
+        "Label": "Entresto",
+        "ValueObject": {
+          "Id": 2,
+          "Value": 1469,
+          "Unit": "Number",
+          "Digits": 0,
+          "Sign": "",
+          "NA": false
+        }
+      },
+      {
         "Id": 3,
-        "Value": 3957,
-        "Unit": "Number",
-        "Digits": 0,
-        "Sign": "",
-        "NA": false
-      }
-    },
-    {
-      "Id": 4,
-      "Label": "Launches",
-      "ValueObject": {
+        "Label": "Rest of Portfolio",
+        "ValueObject": {
+          "Id": 3,
+          "Value": 3957,
+          "Unit": "Number",
+          "Digits": 0,
+          "Sign": "",
+          "NA": false
+        }
+      },
+      {
         "Id": 4,
-        "Value": 936,
-        "Unit": "Number",
-        "Digits": 0,
-        "Sign": "",
-        "NA": false
+        "Label": "Launches",
+        "ValueObject": {
+          "Id": 4,
+          "Value": 936,
+          "Unit": "Number",
+          "Digits": 0,
+          "Sign": "",
+          "NA": false
+        }
       }
-    }
-  ]
+    ]
+  },
+  "BarChart": {
+    "Title": "M&S vs PY",
+    "BarChart": [
+      {
+        "Id": 1,
+        "Label": "Cosentyx",
+        "ValueObject": {
+          "Id": 1,
+          "Value": -66800527.96882461,
+          "Unit": "Number",
+          "Digits": 1,
+          "Sign": "",
+          "NA": false
+        }
+      },
+      {
+        "Id": 2,
+        "Label": "Entresto",
+        "ValueObject": {
+          "Id": 1,
+          "Value": -15631449.180434018,
+          "Unit": "Number",
+          "Digits": 1,
+          "Sign": "",
+          "NA": false
+        }
+      },
+      {
+        "Id": 3,
+        "Label": "Launches",
+        "ValueObject": {
+          "Id": 1,
+          "Value": 29930167.998083085,
+          "Unit": "Number",
+          "Digits": 1,
+          "Sign": "",
+          "NA": false
+        }
+      },
+      {
+        "Id": 4,
+        "Label": "Rest of portfolio",
+        "ValueObject": {
+          "Id": 1,
+          "Value": 2983834.9755895436,
+          "Unit": "Number",
+          "Digits": 1,
+          "Sign": "",
+          "NA": false
+        },
+        "ValuePercentObject": {
+          "Id": 1,
+          "Value": 0.9755895436,
+          "Unit": "Percent",
+          "Digits": 1,
+          "Sign": "%",
+          "NA": false
+        }
+      },
+      {
+        "Id": 5,
+        "Label": "Total Pharma",
+        "ValueObject": {
+          "Id": 1,
+          "Value": 2983834.9755895436,
+          "Unit": "Number",
+          "Digits": 1,
+          "Sign": "",
+          "NA": false
+        }
+      }
+    ]
   }
 }
+  
