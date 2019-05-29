@@ -359,7 +359,7 @@
             "Label": "Rest of portfolio",
             "ValueObject": {
               "Id": 1,
-              "Value": 29838.9755895436,
+              "Value": 829838.9755895436,
               "Unit": "Number",
               "Digits": 1,
               "Sign": "",
@@ -379,7 +379,7 @@
             "Label": "Total Pharma",
             "ValueObject": {
               "Id": 1,
-              "Value": 29838.9755895436,
+              "Value": 129838.9755895436,
               "Unit": "Number",
               "Digits": 1,
               "Sign": "",
