@@ -323,7 +323,7 @@
             "Label": "Cosentyx",
             "ValueObject": {
               "Id": 1,
-              "Value": -66800527.96882461,
+              "Value": -668005.96882461,
               "Unit": "Number",
               "Digits": 1,
               "Sign": "",
@@ -335,7 +335,7 @@
             "Label": "Entresto",
             "ValueObject": {
               "Id": 1,
-              "Value": -15631449.180434018,
+              "Value": -156314.180434018,
               "Unit": "Number",
               "Digits": 1,
               "Sign": "",
@@ -347,7 +347,7 @@
             "Label": "Launches",
             "ValueObject": {
               "Id": 1,
-              "Value": 29930167.998083085,
+              "Value": 299301.998083085,
               "Unit": "Number",
               "Digits": 1,
               "Sign": "",
@@ -359,7 +359,7 @@
             "Label": "Rest of portfolio",
             "ValueObject": {
               "Id": 1,
-              "Value": 2983834.9755895436,
+              "Value": 29838.9755895436,
               "Unit": "Number",
               "Digits": 1,
               "Sign": "",
@@ -379,7 +379,7 @@
             "Label": "Total Pharma",
             "ValueObject": {
               "Id": 1,
-              "Value": 2983834.9755895436,
+              "Value": 29838.9755895436,
               "Unit": "Number",
               "Digits": 1,
               "Sign": "",
