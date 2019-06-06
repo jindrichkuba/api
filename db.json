@@ -175,50 +175,6 @@
               "Tgt20": false,
               "FullyOptimized": false,
               "Tgt20Optimized": true
-            },
-            {
-              "Id": 8,
-              "LeftValue": {
-                "Id": 1,
-                "Value": 58478067.78367522,
-                "Unit": "Number",
-                "Digits": 1,
-                "Sign": "",
-                "NA": false
-              },
-              "RightValue": {
-                "Id": 1,
-                "Value": -51716824.75269597,
-                "Unit": "Number",
-                "Digits": 1,
-                "Sign": "",
-                "NA": false
-              },
-              "Tgt20": false,
-              "FullyOptimized": false,
-              "Tgt20Optimized": false
-            },
-            {
-              "Id": 9,
-              "LeftValue": {
-                "Id": 1,
-                "Value": 58478067.78367522,
-                "Unit": "Number",
-                "Digits": 1,
-                "Sign": "",
-                "NA": false
-              },
-              "RightValue": {
-                "Id": 1,
-                "Value": -51716824.75269597,
-                "Unit": "Number",
-                "Digits": 1,
-                "Sign": "",
-                "NA": false
-              },
-              "Tgt20": false,
-              "FullyOptimized": false,
-              "Tgt20Optimized": false
             }
           ]
         }
