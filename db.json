@@ -1,360 +1,404 @@
-{  
-    "cockpit": {
-     "PlayToWin": {
-        "Title": "Play to Win",
-        "PlayToWin": {
-          "LeftWheelTitle": "M&S",
-          "RightWheelTitle": "Net Sales",
-          "LeftValue": {
-            "Id": 1,
-            "Value": 88229582.9848282,
-            "Unit": "Number",
-            "Digits": 1,
-            "Sign": "",
-            "NA": false
-          }, 
-          "RightValue": {
-            "Id": 2,
-            "Value": 75449894.44122177,
-            "Unit": "Number",
-            "Digits": 1,
-            "Sign": "",
-            "NA": false
-          },
-          "ValuePairs": [
-            {
-              "Id": 1,
-              "LeftValue": {
-                "Id": 1,
-                "Value": -58206675.4706464,
-                "Unit": "Number",
-                "Digits": 1,
-                "Sign": "",
-                "NA": false
-              },
-              "RightValue": {
-                "Id": 1,
-                "Value": -57687029.621924914,
-                "Unit": "Number",
-                "Digits": 1,
-                "Sign": "",
-                "NA": false
-              },
-              "Tgt20": false,
-              "FullyOptimized": false,
-              "Tgt20Optimized": false
-            },
-            {
-              "Id": 2,
-              "LeftValue": {
-                "Id": 1,
-                "Value": 58478067.78367522,
-                "Unit": "Number",
-                "Digits": 1,
-                "Sign": "",
-                "NA": false
-              },
-              "RightValue": {
-                "Id": 1,
-                "Value": -51716824.75269597,
-                "Unit": "Number",
-                "Digits": 1,
-                "Sign": "",
-                "NA": false
-              },
-              "Tgt20": false,
-              "FullyOptimized": false,
-              "Tgt20Optimized": false
-            },
-            {
-              "Id": 3,
-              "LeftValue": {
-                "Id": 1,
-                "Value": 58478067.78367522,
-                "Unit": "Number",
-                "Digits": 1,
-                "Sign": "",
-                "NA": false
-              },
-              "RightValue": {
-                "Id": 1,
-                "Value": -51716824.75269597,
-                "Unit": "Number",
-                "Digits": 1,
-                "Sign": "",
-                "NA": false
-              },
-              "Tgt20": false,
-              "FullyOptimized": true,
-              "Tgt20Optimized": false
-            },
-            {
-              "Id": 4,
-              "LeftValue": {
-                "Id": 1,
-                "Value": 58478067.78367522,
-                "Unit": "Number",
-                "Digits": 1,
-                "Sign": "",
-                "NA": false
-              },
-              "RightValue": {
-                "Id": 1,
-                "Value": -51716824.75269597,
-                "Unit": "Number",
-                "Digits": 1,
-                "Sign": "",
-                "NA": false
-              },
-              "Tgt20": true,
-              "FullyOptimized": false,
-              "Tgt20Optimized": false
-            },
-            {
-              "Id": 5,
-              "LeftValue": {
-                "Id": 1,
-                "Value": 58478067.78367522,
-                "Unit": "Number",
-                "Digits": 1,
-                "Sign": "",
-                "NA": false
-              },
-              "RightValue": {
-                "Id": 1,
-                "Value": -51716824.75269597,
-                "Unit": "Number",
-                "Digits": 1,
-                "Sign": "",
-                "NA": false
-              },
-              "Tgt20": false,
-              "FullyOptimized": false,
-              "Tgt20Optimized": false
-            },
-            {
-              "Id": 6,
-              "LeftValue": {
-                "Id": 1,
-                "Value": 58478067.78367522,
-                "Unit": "Number",
-                "Digits": 1,
-                "Sign": "",
-                "NA": false
-              },
-              "RightValue": {
-                "Id": 1,
-                "Value": -51716824.75269597,
-                "Unit": "Number",
-                "Digits": 1,
-                "Sign": "",
-                "NA": false
-              },
-              "Tgt20": false,
-              "FullyOptimized": false,
-              "Tgt20Optimized": false
-            },
-            {
-              "Id": 7,
-              "LeftValue": {
-                "Id": 1,
-                "Value": 58478067.78367522,
-                "Unit": "Number",
-                "Digits": 1,
-                "Sign": "",
-                "NA": false
-              },
-              "RightValue": {
-                "Id": 1,
-                "Value": -51716824.75269597,
-                "Unit": "Number",
-                "Digits": 1,
-                "Sign": "",
-                "NA": false
-              },
-              "Tgt20": false,
-              "FullyOptimized": false,
-              "Tgt20Optimized": true
-            }
-          ]
-        }
-    },
-    "BarChart": {
-        "Title": "M&S vs PY",
-        "BarChart": [
+{
+  "cockpit": {
+    "PlayToWin": {
+      "Title": "Play to Win",
+      "PlayToWin": {
+        "LeftWheelTitle": "M&S",
+        "RightWheelTitle": "Net Sales",
+        "LeftValue": {
+          "Id": 1,
+          "Value": 7500.0,
+          "Unit": "Number",
+          "Digits": 0,
+          "Sign": "",
+          "NA": false
+        },
+        "RightValue": {
+          "Id": 2,
+          "Value": 23000,
+          "Unit": "Number",
+          "Digits": 0,
+          "Sign": "",
+          "NA": false
+        },
+        "ValuePairs": [
           {
             "Id": 1,
-            "Label": "Cosentyx",
-            "ValueObject": {
+            "LeftValue": {
               "Id": 1,
-              "Value": -668005.96882461,
+              "Value": -2000,
               "Unit": "Number",
-              "Digits": 1,
+              "Digits": 0,
               "Sign": "",
               "NA": false
-            }
+            },
+            "RightValue": {
+              "Id": 1,
+              "Value": 4000,
+              "Unit": "Number",
+              "Digits": 0,
+              "Sign": "",
+              "NA": false
+            },
+            "Tgt20": false,
+            "FullyOptimized": false,
+            "Tgt20Optimized": false
           },
           {
             "Id": 2,
-            "Label": "Entresto",
-            "ValueObject": {
+            "LeftValue": {
               "Id": 1,
-              "Value": -156314.180434018,
+              "Value": -1500,
               "Unit": "Number",
-              "Digits": 1,
+              "Digits": 0,
               "Sign": "",
               "NA": false
-            }
+            },
+            "RightValue": {
+              "Id": 1,
+              "Value": 3000,
+              "Unit": "Number",
+              "Digits": 0,
+              "Sign": "",
+              "NA": false
+            },
+            "Tgt20": false,
+            "FullyOptimized": false,
+            "Tgt20Optimized": false
           },
           {
             "Id": 3,
-            "Label": "Launches",
-            "ValueObject": {
+            "LeftValue": {
               "Id": 1,
-              "Value": 299301.998083085,
+              "Value": -1000,
               "Unit": "Number",
-              "Digits": 1,
-              "Sign": "",
-              "NA": false
-            }
-          },
-          {
-            "Id": 4,
-            "Label": "Rest of portfolio",
-            "ValueObject": {
-              "Id": 1,
-              "Value": 829838.9755895436,
-              "Unit": "Number",
-              "Digits": 1,
+              "Digits": 0,
               "Sign": "",
               "NA": false
             },
-            "ValuePercentObject": {
+            "RightValue": {
               "Id": 1,
-              "Value": 0.9755895436,
-              "Unit": "Percent",
-              "Digits": 1,
-              "Sign": "%",
+              "Value": 2000,
+              "Unit": "Number",
+              "Digits": 0,
+              "Sign": "",
               "NA": false
-            }
+            },
+            "Tgt20": false,
+            "FullyOptimized": true,
+            "Tgt20Optimized": false
+          },
+          {
+            "Id": 4,
+            "LeftValue": {
+              "Id": 1,
+              "Value": -500,
+              "Unit": "Number",
+              "Digits": 0,
+              "Sign": "",
+              "NA": false
+            },
+            "RightValue": {
+              "Id": 1,
+              "Value": 1000,
+              "Unit": "Number",
+              "Digits": 0,
+              "Sign": "",
+              "NA": false
+            },
+            "Tgt20": true,
+            "FullyOptimized": false,
+            "Tgt20Optimized": false
           },
           {
             "Id": 5,
-            "Label": "Total Pharma",
-            "ValueObject": {
+            "LeftValue": {
               "Id": 1,
-              "Value": 129838.9755895436,
+              "Value": 0,
               "Unit": "Number",
-              "Digits": 1,
+              "Digits": 0,
               "Sign": "",
               "NA": false
-            }
-          }
-        ]
-      },
-    "PieChart": {
-        "Title": "M&S vs TGT20",
-        "PieChart": [
-          {
-            "Id": 1,
-            "Label": "Cosentyx",
-            "ValueObject": {
+            },
+            "RightValue": {
               "Id": 1,
-              "Value": 1154,
+              "Value": 0,
               "Unit": "Number",
               "Digits": 0,
               "Sign": "",
               "NA": false
-            }
+            },
+            "Tgt20": false,
+            "FullyOptimized": false,
+            "Tgt20Optimized": false
           },
           {
-            "Id": 2,
-            "Label": "Entresto",
-            "ValueObject": {
-              "Id": 2,
-              "Value": 1469,
+            "Id": 6,
+            "LeftValue": {
+              "Id": 1,
+              "Value": 500,
               "Unit": "Number",
               "Digits": 0,
               "Sign": "",
               "NA": false
-            }
+            },
+            "RightValue": {
+              "Id": 1,
+              "Value": -1000,
+              "Unit": "Number",
+              "Digits": 0,
+              "Sign": "",
+              "NA": false
+            },
+            "Tgt20": false,
+            "FullyOptimized": false,
+            "Tgt20Optimized": false
           },
           {
-            "Id": 3,
-            "Label": "Rest of Portfolio",
-            "ValueObject": {
-              "Id": 3,
-              "Value": 3957,
+            "Id": 7,
+            "LeftValue": {
+              "Id": 1,
+              "Value": 1000,
               "Unit": "Number",
               "Digits": 0,
               "Sign": "",
               "NA": false
-            }
+            },
+            "RightValue": {
+              "Id": 1,
+              "Value": -2000,
+              "Unit": "Number",
+              "Digits": 0,
+              "Sign": "",
+              "NA": false
+            },
+            "Tgt20": false,
+            "FullyOptimized": false,
+            "Tgt20Optimized": true
           },
           {
-            "Id": 4,
-            "Label": "Launches",
-            "ValueObject": {
-              "Id": 4,
-              "Value": 936,
+            "Id": 8,
+            "LeftValue": {
+              "Id": 1,
+              "Value": 1500,
               "Unit": "Number",
               "Digits": 0,
               "Sign": "",
               "NA": false
-            }
+            },
+            "RightValue": {
+              "Id": 1,
+              "Value": -3000,
+              "Unit": "Number",
+              "Digits": 0,
+              "Sign": "",
+              "NA": false
+            },
+            "Tgt20": false,
+            "FullyOptimized": false,
+            "Tgt20Optimized": false
+          },
+          {
+            "Id": 9,
+            "LeftValue": {
+              "Id": 1,
+              "Value": 2000,
+              "Unit": "Number",
+              "Digits": 0,
+              "Sign": "",
+              "NA": false
+            },
+            "RightValue": {
+              "Id": 1,
+              "Value": -4000,
+              "Unit": "Number",
+              "Digits": 0,
+              "Sign": "",
+              "NA": false
+            },
+            "Tgt20": false,
+            "FullyOptimized": false,
+            "Tgt20Optimized": false
           }
         ]
       }
     },
-    "overview":{  
-       "id": 1,
-       "title": "Cockpit",
-       "geographyFilter":[  
-          {  
-             "id": 1,
-             "title": "Geography item 1"
+    "BarChart": {
+      "Title": "M&S vs PY",
+      "BarChart": [
+        {
+          "Id": 1,
+          "Label": "Cosentyx",
+          "ValueObject": {
+            "Id": 1,
+            "Value": -668005.96882461,
+            "Unit": "Number",
+            "Digits": 1,
+            "Sign": "",
+            "NA": false
+          }
+        },
+        {
+          "Id": 2,
+          "Label": "Entresto",
+          "ValueObject": {
+            "Id": 1,
+            "Value": -156314.180434018,
+            "Unit": "Number",
+            "Digits": 1,
+            "Sign": "",
+            "NA": false
+          }
+        },
+        {
+          "Id": 3,
+          "Label": "Launches",
+          "ValueObject": {
+            "Id": 1,
+            "Value": 299301.998083085,
+            "Unit": "Number",
+            "Digits": 1,
+            "Sign": "",
+            "NA": false
+          }
+        },
+        {
+          "Id": 4,
+          "Label": "Rest of portfolio",
+          "ValueObject": {
+            "Id": 1,
+            "Value": 829838.9755895436,
+            "Unit": "Number",
+            "Digits": 1,
+            "Sign": "",
+            "NA": false
           },
-          {  
-             "id": 2,
-             "title": "Geography item 2",
-             "children":[  
-                {  
-                   "id": 1,
-                   "title": "Geography children 1"
-                }
-             ]
+          "ValuePercentObject": {
+            "Id": 1,
+            "Value": 0.9755895436,
+            "Unit": "Percent",
+            "Digits": 1,
+            "Sign": "%",
+            "NA": false
           }
-       ],
-       "currencyFilter":[  
-          {  
-             "id": 1,
-             "title": "Target Rates item 1",
-             "children":[  
-                {  
-                   "id": 1,
-                   "title": "Target Rates Children 1",
-                   "children":[  
-                      {  
-                         "id": 1,
-                         "title":"Target Rates Children Children 1"
-                      }
-                   ]
-                }
-             ]
+        },
+        {
+          "Id": 5,
+          "Label": "Total Pharma",
+          "ValueObject": {
+            "Id": 1,
+            "Value": 129838.9755895436,
+            "Unit": "Number",
+            "Digits": 1,
+            "Sign": "",
+            "NA": false
           }
-       ],
-       "versionFilter":[  
-          {  
-             "id": 1,
-             "title":"Version item 1"
-          },
-          {  
-             "id": 2,
-             "title":"Version item 2"
-          }
-       ]
+        }
+      ]
     },
-    "resourceAllocation": {
+    "PieChart": {
+      "Title": "M&S vs TGT20",
+      "PieChart": [
+        {
+          "Id": 1,
+          "Label": "Cosentyx",
+          "ValueObject": {
+            "Id": 1,
+            "Value": 1154,
+            "Unit": "Number",
+            "Digits": 0,
+            "Sign": "",
+            "NA": false
+          }
+        },
+        {
+          "Id": 2,
+          "Label": "Entresto",
+          "ValueObject": {
+            "Id": 2,
+            "Value": 1469,
+            "Unit": "Number",
+            "Digits": 0,
+            "Sign": "",
+            "NA": false
+          }
+        },
+        {
+          "Id": 3,
+          "Label": "Rest of Portfolio",
+          "ValueObject": {
+            "Id": 3,
+            "Value": 3957,
+            "Unit": "Number",
+            "Digits": 0,
+            "Sign": "",
+            "NA": false
+          }
+        },
+        {
+          "Id": 4,
+          "Label": "Launches",
+          "ValueObject": {
+            "Id": 4,
+            "Value": 936,
+            "Unit": "Number",
+            "Digits": 0,
+            "Sign": "",
+            "NA": false
+          }
+        }
+      ]
+    }
+  },
+  "overview": {
+    "id": 1,
+    "title": "Cockpit",
+    "geographyFilter": [
+      {
+        "id": 1,
+        "title": "Geography item 1"
+      },
+      {
+        "id": 2,
+        "title": "Geography item 2",
+        "children": [
+          {
+            "id": 1,
+            "title": "Geography children 1"
+          }
+        ]
+      }
+    ],
+    "currencyFilter": [
+      {
+        "id": 1,
+        "title": "Target Rates item 1",
+        "children": [
+          {
+            "id": 1,
+            "title": "Target Rates Children 1",
+            "children": [
+              {
+                "id": 1,
+                "title": "Target Rates Children Children 1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "versionFilter": [
+      {
+        "id": 1,
+        "title": "Version item 1"
+      },
+      {
+        "id": 2,
+        "title": "Version item 2"
+      }
+    ]
+  },
+  "resourceAllocation": {
     "id": 2,
     "title": "Resource Allocation",
     "currencyFilter": [
